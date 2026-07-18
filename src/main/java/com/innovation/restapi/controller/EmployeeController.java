@@ -18,7 +18,8 @@ import com.innovation.restapi.model.Employee;
 import com.innovation.restapi.service.EmployeeService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")public class EmployeeController {
+@CrossOrigin(origins = "https://empsys-ruby.vercel.app")
+public class EmployeeController {
 
     @Autowired
     private EmployeeService es;
